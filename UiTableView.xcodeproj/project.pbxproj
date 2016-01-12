@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		D7A0065D1C3A29A2000F8A72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A0065C1C3A29A2000F8A72 /* main.m */; };
 		D7A006601C3A29A2000F8A72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A0065F1C3A29A2000F8A72 /* AppDelegate.m */; };
-		D7A006631C3A29A2000F8A72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A006621C3A29A2000F8A72 /* ViewController.m */; };
 		D7A006661C3A29A2000F8A72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A006641C3A29A2000F8A72 /* Main.storyboard */; };
 		D7A006681C3A29A2000F8A72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A006671C3A29A2000F8A72 /* Assets.xcassets */; };
 		D7A0066B1C3A29A2000F8A72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A006691C3A29A2000F8A72 /* LaunchScreen.storyboard */; };
+		D7A006741C3A2A57000F8A72 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A006731C3A2A57000F8A72 /* Fruit.m */; };
+		D7A006791C3A2C3D000F8A72 /* Banana.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A006751C3A2C3D000F8A72 /* Banana.png */; };
+		D7A0067A1C3A2C3D000F8A72 /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A006761C3A2C3D000F8A72 /* Orange.png */; };
+		D7A0067B1C3A2C3D000F8A72 /* Peach.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A006771C3A2C3D000F8A72 /* Peach.png */; };
+		D7A0067C1C3A2C3D000F8A72 /* Strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A006781C3A2C3D000F8A72 /* Strawberry.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,16 @@
 		D7A0065C1C3A29A2000F8A72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D7A0065E1C3A29A2000F8A72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7A0065F1C3A29A2000F8A72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D7A006611C3A29A2000F8A72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D7A006621C3A29A2000F8A72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7A006651C3A29A2000F8A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7A006671C3A29A2000F8A72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7A0066A1C3A29A2000F8A72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7A0066C1C3A29A2000F8A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A006721C3A2A57000F8A72 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		D7A006731C3A2A57000F8A72 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		D7A006751C3A2C3D000F8A72 /* Banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banana.png; sourceTree = "<group>"; };
+		D7A006761C3A2C3D000F8A72 /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
+		D7A006771C3A2C3D000F8A72 /* Peach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Peach.png; sourceTree = "<group>"; };
+		D7A006781C3A2C3D000F8A72 /* Strawberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Strawberry.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,13 @@
 			children = (
 				D7A0065E1C3A29A2000F8A72 /* AppDelegate.h */,
 				D7A0065F1C3A29A2000F8A72 /* AppDelegate.m */,
-				D7A006611C3A29A2000F8A72 /* ViewController.h */,
-				D7A006621C3A29A2000F8A72 /* ViewController.m */,
+				D7A006721C3A2A57000F8A72 /* Fruit.h */,
+				D7A006731C3A2A57000F8A72 /* Fruit.m */,
 				D7A006641C3A29A2000F8A72 /* Main.storyboard */,
+				D7A006751C3A2C3D000F8A72 /* Banana.png */,
+				D7A006761C3A2C3D000F8A72 /* Orange.png */,
+				D7A006771C3A2C3D000F8A72 /* Peach.png */,
+				D7A006781C3A2C3D000F8A72 /* Strawberry.png */,
 				D7A006671C3A29A2000F8A72 /* Assets.xcassets */,
 				D7A006691C3A29A2000F8A72 /* LaunchScreen.storyboard */,
 				D7A0066C1C3A29A2000F8A72 /* Info.plist */,
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7A0066B1C3A29A2000F8A72 /* LaunchScreen.storyboard in Resources */,
+				D7A0067C1C3A2C3D000F8A72 /* Strawberry.png in Resources */,
+				D7A0067A1C3A2C3D000F8A72 /* Orange.png in Resources */,
 				D7A006681C3A29A2000F8A72 /* Assets.xcassets in Resources */,
+				D7A0067B1C3A2C3D000F8A72 /* Peach.png in Resources */,
+				D7A006791C3A2C3D000F8A72 /* Banana.png in Resources */,
 				D7A006661C3A29A2000F8A72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7A006631C3A29A2000F8A72 /* ViewController.m in Sources */,
+				D7A006741C3A2A57000F8A72 /* Fruit.m in Sources */,
 				D7A006601C3A29A2000F8A72 /* AppDelegate.m in Sources */,
 				D7A0065D1C3A29A2000F8A72 /* main.m in Sources */,
 			);
